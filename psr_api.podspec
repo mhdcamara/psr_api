@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   spec.platform = :ios, "11.0 or whatever version "
    
   # Line 17 is VERY important. This is how Cocoapod will know where to pull your code from when someone tries to install.
-  spec.source = { :git => "https://mhdcamara@bitbucket.org/mhdcamara/psr_plugin_ios.git", :tag => "1.0.0" }
+  spec.source = { :git => "https://github.com/mhdcamara/psr_api.git", :tag => "1.0.0" }
    
   # In case you've added unit test(you should👀) This is how TravisCI(or whichever CI) will know where your tests are located
   # spec.source_files = "path/to/your/test/target/**.swift"
