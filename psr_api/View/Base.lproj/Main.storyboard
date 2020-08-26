@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SlR-jL-886">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Pay View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="psr_api" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="PayViewController" customModule="Alamofire" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -175,12 +175,12 @@
         <!--Senegal View Controller-->
         <scene sceneID="2Cg-mc-9pr">
             <objects>
-                <viewController storyboardIdentifier="SenegalViewController" id="ApX-es-Rak" customClass="SenegalViewController" customModule="psr_api" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SenegalViewController" id="ApX-es-Rak" customClass="SenegalViewController" customModule="Alamofire" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IRa-ts-20w">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1qb-K2-7wA" customClass="PayDunya" customModule="psr_api" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1qb-K2-7wA" customClass="PayDunya" customModule="Alamofire" customModuleProvider="target">
                                 <rect key="frame" x="22" y="171" width="276" height="363"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
@@ -205,7 +205,7 @@
         <!--Pay Dunya View Controller-->
         <scene sceneID="bqG-5f-OvC">
             <objects>
-                <viewController storyboardIdentifier="PayDunyaViewController" id="oe6-qU-apR" customClass="PayDunyaViewController" customModule="psr_api" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PayDunyaViewController" id="oe6-qU-apR" customClass="PayDunyaViewController" customModule="Alamofire" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lYe-uM-YgL">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -379,7 +379,7 @@
         <!--State Picker View Controller-->
         <scene sceneID="rym-Kw-0P2">
             <objects>
-                <viewController storyboardIdentifier="StatePickerViewController" id="bPD-xX-exC" customClass="StatePickerViewController" customModule="psr_api" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="StatePickerViewController" id="bPD-xX-exC" customClass="StatePickerViewController" customModule="Alamofire" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oPV-Ap-GFU">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -406,7 +406,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="statesCell" id="0dD-75-L9C" customClass="stateCell" customModule="psr_api" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="statesCell" id="0dD-75-L9C" customClass="stateCell" customModule="Alamofire" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="72" width="320" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0dD-75-L9C" id="rBp-gs-Bgd">
@@ -463,42 +463,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="61U-5G-rzm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1552.5" y="99.295774647887328"/>
-        </scene>
-        <!--Main View Controller-->
-        <scene sceneID="hDC-e7-e7y">
-            <objects>
-                <viewController storyboardIdentifier="MainViewController" id="SlR-jL-886" customClass="MainViewController" customModule="psr_api" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="466-AM-TTC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXu-4M-zf1">
-                                <rect key="frame" x="49.5" y="269" width="221" height="30"/>
-                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="221" id="KSh-EG-nGJ"/>
-                                    <constraint firstAttribute="height" constant="30" id="V9j-ia-PhV"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="24"/>
-                                <state key="normal" title="Payer">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="showFullCustomPopupButtonTapped:" destination="SlR-jL-886" eventType="touchUpInside" id="pxf-om-Xer"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="gXu-4M-zf1" firstAttribute="top" secondItem="bX8-ph-ct5" secondAttribute="top" constant="269" id="PqZ-07-cW3"/>
-                            <constraint firstItem="gXu-4M-zf1" firstAttribute="centerX" secondItem="466-AM-TTC" secondAttribute="centerX" id="b2r-NV-Pec"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="bX8-ph-ct5"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1wR-Ou-Hd0" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-823" y="99"/>
         </scene>
     </scenes>
     <resources>

@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  PayViewController.swift
 //  psr_api
 //
 //  Created by Mouhamed Camara on 7/6/20.
@@ -14,7 +14,7 @@ import EasyTipView
 
 
 
-class ViewController: UIViewController, EasyTipViewDelegate
+class PayViewController: UIViewController, EasyTipViewDelegate
 {
     
     //MARK: Actions
